@@ -819,6 +819,22 @@ img {
 }
 
 @media (max-width: 768px) {
+    .navbar {
+        padding: 1.2rem 0;
+    }
+    
+    .navbar.scrolled {
+        padding: 0.8rem 0;
+    }
+
+    .logo img {
+        height: 38px;
+    }
+
+    .menu-toggle {
+        font-size: 1.3rem;
+    }
+
     .nav-links {
         position: absolute;
         top: 100%;
