@@ -78,7 +78,7 @@ const closeLightbox = document.querySelector('.close-lightbox');
 
 document.querySelectorAll('.gallery-img').forEach(img => {
     img.addEventListener('click', () => {
-        lightbox.style.display = 'block';
+        lightbox.style.display = 'flex';
         lightboxImg.src = img.src;
         document.body.style.overflow = 'hidden'; // Prevent scrolling
     });
